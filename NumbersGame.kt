@@ -6,6 +6,8 @@ class NumsGame {
     init {
         println("Starting Numbers Game")
         game()
+        println("Press 'Enter' to continue")
+        readLine()
     }
 
     private fun game(){
