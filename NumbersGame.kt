@@ -1,7 +1,7 @@
 import java.lang.Exception
 import kotlin.random.Random
 
-class NumsGame {
+class NumbersGame {
 
     init {
         println("Starting Numbers Game")
