@@ -39,7 +39,7 @@ class Calculator {
                     print("Enter second number: ")
                     val number2 = readLine()
                     if(numCheck(number2!!)) {
-                        if(number2.toFloat() == 0f && op == "/"){
+                        if(op == "/" && (number1.toFloat() == 0f || number2.toFloat() == 0f)){
                             println("You cannot divide by 0")
                         }else{
                             println("$number1 $op $number2 = ${calculate(number1.toFloat(), op[0], number2.toFloat())}")
